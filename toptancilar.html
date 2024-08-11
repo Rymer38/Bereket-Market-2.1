@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Toptancılar</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="urunler.html">Ürünler</a>
+            <a href="toptancilar.html">Toptancılar</a>
+        </nav>
+    <h1>Toptancılar</h1>
+
+    <div id="toptanci-ekle">
+        <h2>Toptancı Ekle</h2>
+        <label for="toptanci-adi">Toptancı Adı:</label>
+        <input type="text" id="toptanci-adi"><br>
+        <label for="toptanci-borc">Borç:</label>
+        <input type="number" id="toptanci-borc"><br>
+        <button onclick="addToptanci()">Toptancı Ekle</button>
+    </div>
+
+    <div id="mevcut-toptancilar">
+        <h2>Mevcut Toptancılar</h2>
+        <ul id="toptanci-listesi"></ul>
+    </div>
+
+    <script src="toptancilar.js"></script>
+</body>
+</html>
+

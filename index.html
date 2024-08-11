@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="urunler.html">Ürünler</a>
+            <a href="toptancilar.html">Toptancılar</a>
+        </nav>
+    <h1>Ana Sayfa</h1>
+
+    <div id="kategoriler">
+        <h2>Kategoriler</h2>
+        <div id="nakit" data-id="570f7262-8a5c-45f2-a5df-c534825a2da1">
+            <h3>Nakit</h3>
+            <p>Toplam Fiyat: <span id="nakit-fiyat">0</span> TL</p>
+            <p>Toplam Kar: <span id="nakit-kar">0</span> TL</p>
+        </div>
+        <div id="kart" data-id="873e8d48-408b-4325-8807-f14ddfd9493f">
+            <h3>Kart</h3>
+            <p>Toplam Fiyat: <span id="kart-fiyat">0</span> TL</p>
+            <p>Toplam Kar: <span id="kart-kar">0</span> TL</p>
+        </div>
+        <div id="veresiye" data-id="b25f42fe-5a43-438a-bae6-414f4885a253">
+            <h3>Veresiye</h3>
+            <p>Toplam Fiyat: <span id="veresiye-fiyat">0</span> TL</p>
+            <p>Toplam Kar: <span id="veresiye-kar">0</span> TL</p>
+        </div>
+        <button onclick="resetData()">Günü Kaydet</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
